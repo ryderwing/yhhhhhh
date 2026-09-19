@@ -9,7 +9,7 @@ const profile = {
   pfp: "/assets/pfp.png",
   aliases: ["cpu", "1844", "refrsh"],
   links: [
-    { label: "guns.lol", href: "https://gun.lol/cpu_" },
+    { label: "guns.lol", href: "https://guns.lol/cpu_" },
     { label: "Discord", href: "https://discord.gg/XvsPrJPNMX" },
   ],
   music: {
