@@ -27,11 +27,11 @@ export default function Home() {
   const audioRef = useRef(null);
 
   useEffect(() => {
-    const key = "1844refrsh-view-counted";
-    let stored = Number(localStorage.getItem("1844refrsh-views") || "0");
+    const key = "1844slitcope-view-counted";
+    let stored = Number(localStorage.getItem("1844slitcope-views") || "0");
     if (!localStorage.getItem(key)) {
       stored += 1;
-      localStorage.setItem("1844refrsh-views", String(stored));
+      localStorage.setItem("1844slitcope-views", String(stored));
       localStorage.setItem(key, "1");
     }
     setViews(stored);
