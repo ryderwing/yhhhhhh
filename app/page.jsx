@@ -4,13 +4,13 @@ import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const profile = {
-  name: "1844refrsh",
+  name: "1844slitcope",
   description: "im cpu",
   pfp: "/assets/pfp.png",
   aliases: ["cpu", "1844", "refrsh"],
   links: [
-    { label: "GitHub", href: "https://github.com/" },
-    { label: "Discord", href: "#" },
+    { label: "guns.lol", href: "https://gun.lol/cpu_" },
+    { label: "Discord", href: "https://discord.gg/XvsPrJPNMX" },
   ],
   music: {
     title: "Your Song",
