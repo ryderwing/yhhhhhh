@@ -52,10 +52,10 @@ export default function Home() {
         setError("");
       } else {
         audio.pause();
-        setPlaying(false);
+        setPlaying(true);
       }
     } catch {
-      setError("Click play to start the music.");
+      setError("peak music fr");
     }
   };
 
@@ -129,7 +129,7 @@ export default function Home() {
                     {tab==="about" && (
                       <div className="section">
                         <span className="label">ABOUT</span>
-                        <p className="aboutText">im cpu<br/><span>building random stuff & breaking things.</span></p>
+                        <p className="aboutText">im cpu<br/><span>im harmful comboss and i will dox your stove</span></p>
                       </div>
                     )}
 
